@@ -55,158 +55,161 @@
 							</section>
 
 					</div>
-<div class="timeline">
-  <div class="outer">
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Paymob, Product Analyst</h3>
-        <p class="subtitle">July 2024 - Sep 2024, Cairo, Egypt (Internship)</p>
-        <ul>
-          <li>Conducted ad-hoc analytics to answer business questions and reveal data patterns using SQL and Apache Superset charts.</li>
-          <li>Tracked customer behavior in the Paymob app by creating and testing events on Amplitude in collaboration with frontend developers.</li>
-          <li>Created tailored dashboards on Amplitude and Clevertap to analyze user flow and identify drop-offs with conversion funnels and trends.</li>
-          <li>Documented events for three major app features, establishing a comprehensive naming convention for streamlined event creation.</li>
-        </ul>
+				<div class="timeline-container">
+  <style>
+    :root {
+      --primary-color: #212121;
+      --background-color: #111;
+      --font: 'Arial', sans-serif;
+      --highlight-color: orangered;
+      --text-color: #f5f5f5;
+      --subtitle-color: #bbb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .timeline-container {
+      background: var(--background-color);
+      font-family: var(--font);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      background: var(--primary-color);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 30px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: var(--highlight-color);
+      border-radius: 4px;
+    }
+
+    .outer {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 60px;
+    }
+
+    .card {
+      position: relative;
+      padding: 20px;
+      background: #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: var(--highlight-color);
+      border-radius: 50%;
+      top: 20px;
+      left: -47px;
+      border: 3px solid var(--background-color);
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .title {
+      color: var(--highlight-color);
+      font-size: 1.2em;
+    }
+
+    .subtitle {
+      font-size: 0.9em;
+      color: var(--subtitle-color);
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+      color: var(--text-color);
+    }
+
+    li {
+      line-height: 1.6;
+      font-size: 0.9em;
+      margin-bottom: 5px;
+    }
+  </style>
+
+  <div class="timeline">
+    <div class="outer">
+      <div class="card">
+        <div class="info">
+          <h3 class="title">Paymob, Product Analyst</h3>
+          <p class="subtitle">July 2024 - Sep 2024, Cairo, Egypt (Internship)</p>
+          <ul>
+            <li>Conducted ad-hoc analytics to answer business questions and reveal data patterns using SQL and Apache Superset charts.</li>
+            <li>Tracked customer behavior in the Paymob app by creating and testing events on Amplitude in collaboration with frontend developers.</li>
+            <li>Created tailored dashboards on Amplitude and Clevertap to analyze user flow and identify drop-offs with conversion funnels and trends.</li>
+            <li>Documented events for three major app features, establishing a comprehensive naming convention for streamlined event creation.</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">AlphaYele, Data Analyst</h3>
-        <p class="subtitle">Aug 2024 - Dec 2024, Remote (Part-time)</p>
-        <ul>
-          <li>Developed and automated dynamic reports and dashboards using Power BI and Google Looker Studio, providing actionable insights.</li>
-          <li>Ensured data integrity by gathering, cleaning, and storing data in spreadsheets and Postgres databases for quality visualization.</li>
-          <li>Led the “Alpha Insights” sub-product, managing sprints, organizing backlogs, and creating user stories to support the team workflow.</li>
-        </ul>
+      <div class="card">
+        <div class="info">
+          <h3 class="title">AlphaYele, Data Analyst</h3>
+          <p class="subtitle">Aug 2024 - Dec 2024, Remote (Part-time)</p>
+          <ul>
+            <li>Developed and automated dynamic reports and dashboards using Power BI and Google Looker Studio, providing actionable insights.</li>
+            <li>Ensured data integrity by gathering, cleaning, and storing data in spreadsheets and Postgres databases for quality visualization.</li>
+            <li>Led the “Alpha Insights” sub-product, managing sprints, organizing backlogs, and creating user stories to support the team workflow.</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">LevelUp Ltd., Analytics Engineer</h3>
-        <p class="subtitle">Feb 2024 - July 2024, Remote (Part-time)</p>
-        <ul>
-          <li>Developed a data model to process sustainability metrics, facilitating accurate analysis and reporting.</li>
-          <li>Implemented a pipeline for user score calculations, generating outputs as JSON for backend integration.</li>
-          <li>Automated data scraping and processing with pandas and Scrapy, enabling efficient data storage and retrieval.</li>
-          <li>Conducted market research to support strategic decision-making and informed environmental solutions.</li>
-        </ul>
+      <div class="card">
+        <div class="info">
+          <h3 class="title">LevelUp Ltd., Analytics Engineer</h3>
+          <p class="subtitle">Feb 2024 - July 2024, Remote (Part-time)</p>
+          <ul>
+            <li>Developed a data model to process sustainability metrics, facilitating accurate analysis and reporting.</li>
+            <li>Implemented a pipeline for user score calculations, generating outputs as JSON for backend integration.</li>
+            <li>Automated data scraping and processing with pandas and Scrapy, enabling efficient data storage and retrieval.</li>
+            <li>Conducted market research to support strategic decision-making and informed environmental solutions.</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Al Ahly Momkn for e-payments, Business Intelligence Intern</h3>
-        <p class="subtitle">Aug 2023 - Oct 2023, Cairo, Egypt</p>
-        <ul>
-          <li>Wrote SQL queries for data extraction across multiple tables to support business intelligence efforts.</li>
-          <li>Created a dashboard to highlight top vendors and underperforming regions, guiding strategic improvements.</li>
-          <li>Analyzed sales trends to identify growth opportunities and areas needing attention.</li>
-        </ul>
+      <div class="card">
+        <div class="info">
+          <h3 class="title">Al Ahly Momkn for e-payments, Business Intelligence Intern</h3>
+          <p class="subtitle">Aug 2023 - Oct 2023, Cairo, Egypt</p>
+          <ul>
+            <li>Wrote SQL queries for data extraction across multiple tables to support business intelligence efforts.</li>
+            <li>Created a dashboard to highlight top vendors and underperforming regions, guiding strategic improvements.</li>
+            <li>Analyzed sales trends to identify growth opportunities and areas needing attention.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<style>
-:root {
-  --primary-color: #212121;
-  --background-color: #111;
-  --font: 'Arial', sans-serif;
-  --highlight-color: orangered;
-  --text-color: #f5f5f5;
-  --subtitle-color: #bbb;
-}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: var(--background-color);
-  font-family: var(--font);
-  color: var(--text-color);
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.timeline {
-  position: relative;
-  max-width: 800px;
-  background: var(--primary-color);
-  padding: 30px;
-  border-radius: 10px;
-}
-
-.timeline::before {
-  content: "";
-  position: absolute;
-  left: 30px;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: var(--highlight-color);
-  border-radius: 4px;
-}
-
-.outer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-left: 60px;
-}
-
-.card {
-  position: relative;
-  padding: 20px;
-  background: #333;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.card::before {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background: var(--highlight-color);
-  border-radius: 50%;
-  top: 20px;
-  left: -47px;
-  border: 3px solid var(--background-color);
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.title {
-  color: var(--highlight-color);
-  font-size: 1.2em;
-}
-
-.subtitle {
-  font-size: 0.9em;
-  color: var(--subtitle-color);
-}
-
-ul {
-  list-style: disc;
-  padding-left: 20px;
-  color: var(--text-color);
-}
-
-li {
-  line-height: 1.6;
-  font-size: 0.9em;
-  margin-bottom: 5px;
-}
-</style>
-
-
+				
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
